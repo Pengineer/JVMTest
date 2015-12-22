@@ -25,6 +25,6 @@ Server is ready.
 
 执行成功后，访问 [http://localhost:7000](http://localhost:7000) 即可查看内存信息。
 
-（2）使用Myeclipse的内存映像分析工具</br>
-  官网：[http://www.eclipse.org/mat/](http://www.eclipse.org/mat/)</br>
-  这是eclipse的一个插件，安装后可以打开xxx.hprof文件，进行分析，比jhat更方便使用，有些时候由于线上xxx.hprof文件过大，直接使用jhat进行初步分析了，可以的话拷贝到本地分析效果更佳。
+（2）使用eclipse的内存映像分析工具`MAT`</br>
+　　官网：[http://www.eclipse.org/mat/](http://www.eclipse.org/mat/)</br>
+　　这是eclipse的一个插件，安装后可以打开xxx.hprof文件，进行分析，比jhat更方便使用，有些时候由于线上xxx.hprof文件过大，直接使用jhat进行初步分析了，可以的话拷贝到本地分析效果更佳。
