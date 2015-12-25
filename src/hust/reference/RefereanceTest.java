@@ -68,7 +68,7 @@ public class RefereanceTest {
 	public static void testReference_1() throws Exception {  
 		Object object = new RefereanceTest(); 
 		ReferenceQueue<Object> referenceQueue = new ReferenceQueue<Object>();  
-		Reference<Object> reference = new PhantomReference<Object>(object, referenceQueue);  
+		Reference<Object> reference = new PhantomReference<Object>(object, referenceQueue);  //虚引用必须要传一个队列，可作为系统通知
 		System.out.println(reference);  
 		System.out.println(reference.isEnqueued());  
 		object = null;
